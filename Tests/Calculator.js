@@ -9,9 +9,7 @@ describe('Calculator demo tests', function () {
     var secondValue = '3';
     var additionResultValue = '4';
     var subtractionResultValue = '-2';
-    var index = 4;
-
-    
+    var index = 4;    
 
     it('Additon tests', function () {
 
@@ -36,8 +34,6 @@ describe('Calculator demo tests', function () {
         homepage.enterFirstNumber(firstValue);
 
         homepage.enterSecondNumber(secondValue);
-
-        /* homepage.clickOperands(optionTag, Operand); */
 
         homepage.clickOperands(index);
 
